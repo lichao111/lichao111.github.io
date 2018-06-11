@@ -1,8 +1,15 @@
 ---
-title: 排查程序CPU,内存过高原因
-tags: pstack,top,linux
-grammar_cjkRuby: true
 ---
+layout:     post
+title:      排查程序CPU,内存过高原因
+subtitle:   "Hello World, Hello Blog"
+date:       2018-06-10 12:00:00
+author:     "Chao"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Linux
+---
+
 
 
   在多线程的程序中，如果出现了cpu和内存过高。 比价难以判断到底是哪个线程的的哪个函数造成的。而用几个linux命令：__ps__ ,  __top__ , __pstack__ 相结合,可以比较好的辅助我们定位到问题的根源。
