@@ -1,23 +1,22 @@
 ---
 layout:     post
-title:      "Example Post"
-subtitle:   "ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?"
-date:       2015-09-22
-author:     "Hux"
-header-img: "img/post-bg-js-version.jpg"
+title:      "c++程序cpu内存过高问题排查"
+subtitle:   ""
+date:       2018-06-10
+author:     "Chao"
+header-img: "img/post-bg-cpu.jpg"
 tags:
-    - 前端开发
-    - JavaScript
-    - 翻译
+    - c++
+    - Linux
 ---
 
 
 
 
 
-  在多线程的程序中，如果出现了cpu和内存过高。 比价难以判断到底是哪个线程的的哪个函数造成的。而用几个linux命令：__ps__ ,  __top__ , __pstack__ 相结合,可以比较好的辅助我们定位到问题的根源。
+在多线程的程序中，如果出现了cpu和内存过高。比价难以判断到底是哪个线程的的哪个函数造成的。而用几个linux命令：__ps__ ,  __top__ , __pstack__ 相结合,可以比较好的辅助我们定位到问题的根源。
 
- 1. ps命令查看程序PID
+1. ps命令查看程序PID
 ```shell
 ps -ef | grep eventinput | grep -v "eventinput"
 ```
