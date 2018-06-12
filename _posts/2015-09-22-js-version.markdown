@@ -4,7 +4,7 @@ title:      "c++程序cpu内存过高问题排查"
 subtitle:   ""
 date:       2018-06-10
 author:     "Chao"
-header-img: "img/post-bg-cpu.jpg"
+header-img: "img/post-bg-cpu-mem.jpg"
 tags:
     - c++
     - Linux
